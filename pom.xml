@@ -21,6 +21,7 @@
                       </properties>
          </profile>
          </profiles>
+         <distributionManagement>
          <repository>
         <id>nexus</id>
         <name>RepositoryProxyRel</name>
@@ -32,6 +33,7 @@
         <name>RepositoryProxySnap</name>
         <url>http://localhost:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
+                  </distributionManagement>
   <description>Just a pom that makes it easy to build both projects at the same time.</description>
 
   <modules>
